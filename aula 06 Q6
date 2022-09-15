@@ -1,0 +1,32 @@
+# Letra A
+convidados = ["Neymar", "Vinicius", "Richarlison", "Antony", "Raphinha"]
+
+#Letra b
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[0]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[1]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[2]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[3]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[4]))
+
+#Letra C
+naovai = (convidados[3])
+
+print("{} nao vai!".format(naovai))
+
+#Letra D
+convidados[3] = "Gabriel"
+
+#Letra E
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[0]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[1]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[2]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[3]))
+
+print("Boa noite, {}! Voce esta convidado para um jantar em minha casa esta noite.".format(convidados[4]))
