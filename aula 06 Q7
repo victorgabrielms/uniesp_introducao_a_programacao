@@ -1,0 +1,10 @@
+nome = str(input("qual o seu nome?"))
+idade = int(input("qual sua idade?"))
+email = str(input("qual seu email?"))
+
+cadastro = [nome, idade, email]
+
+print("CADASTRO")
+print("nome: {}".format(cadastro[0]))
+print("idade: {}".format(cadastro[1]))
+print("email: {}".format(cadastro[2]))
