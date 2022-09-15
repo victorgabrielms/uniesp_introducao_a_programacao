@@ -1,0 +1,10 @@
+divisor = 11
+resto = 5
+
+for numero in range(1000, 2001):
+    resultado_resto_div = numero % divisor
+    resultado_div = numero / divisor 
+
+    if resultado_resto_div == resto:
+        print(f'Resultado da divisão: {numero} / {divisor} = {resultado_div}')
+        print(f'Resto da divisão: {numero} % {divisor} = {resultado_resto_div}')
