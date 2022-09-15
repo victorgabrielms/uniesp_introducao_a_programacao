@@ -1,0 +1,5 @@
+lista_amigos = ['maria','victor','luana','renato']
+print(lista_amigos[0])
+print(lista_amigos[1])
+print(lista_amigos[2])
+print(lista_amigos[3])
