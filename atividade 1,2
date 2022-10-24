@@ -1,0 +1,9 @@
+times = []
+while len(times) < 10:
+    time = str(input('Digite o nome de um time:')).upper()
+    times.append(time)
+procura = str(input('Digite o nome do time que deseja procurar: ')).upper()
+if procura in times:
+    print('Achei')
+else:
+    print ('Não Achei')
